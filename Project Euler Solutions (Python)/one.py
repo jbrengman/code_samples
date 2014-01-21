@@ -1,0 +1,11 @@
+'''
+Created on Feb 5, 2013
+
+@author: jordan
+'''
+
+total = 0
+for x in range(1000):
+    if (x % 3 == 0 or x % 5 == 0):
+        total = total + x
+print(total)
